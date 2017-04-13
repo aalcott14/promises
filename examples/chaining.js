@@ -24,7 +24,7 @@ var addNewUserToDatabaseAsync = function(user) {
 };
 
 addNewUserToDatabaseAsync({ name: 'Dan', password: 'chickennuggets' })
-  .then(function(savedUser) {
+  .then(function(savedUser) { 
     console.log('All done!');
   })
   .catch(function(err) {
